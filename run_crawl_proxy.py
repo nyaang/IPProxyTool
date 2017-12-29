@@ -17,10 +17,10 @@ from ipproxytool.spiders.proxy.gatherproxy import GatherproxySpider
 from ipproxytool.spiders.proxy.hidemy import HidemySpider
 from ipproxytool.spiders.proxy.proxylistplus import ProxylistplusSpider
 from ipproxytool.spiders.proxy.freeproxylists import FreeProxyListsSpider
-from ipproxytool.spiders.proxy.peuland import PeulandSpider
+#from ipproxytool.spiders.proxy.peuland import PeulandSpider    没有这个爬虫
 from ipproxytool.spiders.proxy.usproxy import UsProxySpider
 from ipproxytool.spiders.proxy.proxydb import ProxyDBSpider
-from ipproxytool.spiders.proxy.proxyrox import ProxyRoxSpider
+#from ipproxytool.spiders.proxy.proxyrox import ProxyRoxSpider  没有这个爬虫
 
 scrapydo.setup()
 
@@ -50,7 +50,7 @@ if __name__ == '__main__':
         # PeulandSpider,  # 目标站点失效
         UsProxySpider,
         ProxyDBSpider,
-        ProxyRoxSpider,
+        # ProxyRoxSpider,
     ]
 
     while True:
